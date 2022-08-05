@@ -35,6 +35,7 @@
                 <div class="email-section">
                     <p>Email address</p>
                     <input id="email-input" type="email" name="email" placeholder="email@domain.com" />
+                    <p class="msg-dis error" id="email-error">Enter a valid email</p>
                 </div>
                 <div class="pass-section">
                     <div>
@@ -47,6 +48,8 @@
                 <button id="submit-btn" type="submit" class="btn">Login</button>
                 <p class="reg-text">Don't have an account? <a href="#">Register here</a></p>
             </form>
+            <p class="msg-dis error" id="all-fields-error">All fields are are required</p>
+            <p class="msg-dis success" id="success-msg">You have successfully logged in</p>
         </div>
     </section>
 	<script src="index.js"></script>

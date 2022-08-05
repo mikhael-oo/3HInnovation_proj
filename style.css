@@ -126,7 +126,7 @@ input {
     padding-left: 10px;
 }
 
-#email-input {
+.email-section {
     margin-bottom: 20px;
 }
 
@@ -144,8 +144,39 @@ input {
     margin-bottom: 10px;
 }
 
+#submit-btn:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #2f80ed;
+    border: 1px solid #DDDDDD;
+}
+
 .reg-text {
     color: #4f4f4f;
+}
+
+.reg-text a {
+    color: #000;
+    text-decoration: none;
+
+}
+
+.reg-text a:hover {
+    cursor: pointer;
+}
+
+/* handling error and disappearing messages */
+
+.error {
+    color: tomato;
+}
+
+.success {
+    color: green;
+}
+
+.msg-dis {
+    display: none;
 }
 
 
