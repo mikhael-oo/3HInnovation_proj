@@ -6,35 +6,47 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Basic Authentication Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
   </head>
   <body>
-    <section>
+    <section class="img-section">
         <img src="./assets/image-smiling.png" alt="profile picture" />
     </section>
-    <section>
-        <div>
-            <div>
+    <section class="text-section">
+        <div class="box">
+            <div class="login-header">
                 <h1>Login</h1>
                 <p>Enter your credential to access your account</p>
             </div>
-            <button>
-                <img src="./assets/google.png" />
-                <p>Login with Google</p>
+            <button class="google-btn">
+                <div>
+                    <img src="./assets/google.png" />
+                    <p>Login with Google</p>
+                </div>
+                
             </button>
-            <p>Or</p>
-            <div>
-                <div>
-                    <p>Email address</p>
-                    <input type="email" name="email" placeholder="email@domain.com" />
-                </div>
-                <div>
-                    <p>Password</p>
-                    <p>Forgot password?</p>
-                    <input type="password" name="password" placeholder="Password" />
-                </div>
-                <button type="submit" class="btn">Login</button>
-                <p>Don't have an account? <a href="#">Register here</a></p>
+            <div class="separator">
+                <h2><span>Or</span></h2>
             </div>
+            
+            <form class="form-input">
+                <div class="email-section">
+                    <p>Email address</p>
+                    <input id="email-input" type="email" name="email" placeholder="email@domain.com" />
+                </div>
+                <div class="pass-section">
+                    <div>
+                        <p>Password</p>
+                        <p class="forgot-pass">Forgot password?</p>
+                    </div>
+                    
+                    <input id="password-input" type="password" name="password" placeholder="Password" />
+                </div>
+                <button id="submit-btn" type="submit" class="btn">Login</button>
+                <p class="reg-text">Don't have an account? <a href="#">Register here</a></p>
+            </form>
         </div>
     </section>
 	<script src="index.js"></script>

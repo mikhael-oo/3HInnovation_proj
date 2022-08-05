@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: "Inter", sands-serif;
+}
+
+section {
+    width: 50vw;
+    height: 100vh;
+}
+
+.img-section img {
+    height: 100%;
+    width: 100%;
+}
+
+.text-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-section .box {
+    width: 100%;
+    text-align: center;
+}
+
+.box h1 {
+    color: #333333;
+    font-size: 52px;
+    margin-bottom: 5px;
+}
+
+.login-header p {
+    color: #828282;
+}
+
+.login-header {
+    margin-bottom: 30px;
+}
+
+.google-btn {
+    width: 56%;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+}
+
+.google-btn div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-btn div img {
+    margin-right: 8px;
+}
+
+.separator {
+    width: 56%;
+    margin: 0 auto;
+}
+h2 {
+    width: 100%;
+    text-align: center;
+    line-height: 0.1em;
+    margin: 40px 0;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+h2 span {
+    background: #fff;
+    padding: 0 20px;
+}
+
+.form-input {
+    width: 56%;
+    margin: 0 auto;
+}
+
+.form-input div p {
+    text-align: left;
+    font-size: 16px;
+}
+
+.form-input div {
+    width: 100%; 
+}
+
+.pass-section div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.forgot-pass {
+    color: #2f80ed;
+}
+
+input {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+}
+
+input::placeholder,
+input::-webkit-input-placeholder,
+input::-moz-placeholder,
+input:-moz-placeholder,
+input:ms-input-placeholder {
+    padding-left: 10px;
+}
+
+input {
+    padding-left: 10px;
+}
+
+#email-input {
+    margin-bottom: 20px;
+}
+
+#password-input {
+    margin-bottom: 25px;
+}
+
+#submit-btn {
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    background-color: #2f80ed;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.reg-text {
+    color: #4f4f4f;
+}
+
+
+
