@@ -61,6 +61,7 @@ form.addEventListener("submit", (event) => {
         }
     } else {
         allFieldsError.style.display = "block"
+        successMsg.style.display = "none"
         return false;
     }
     
